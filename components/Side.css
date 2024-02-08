@@ -1,0 +1,131 @@
+.topBar {
+  display: none;
+}
+
+.navIcon {
+  color: black;
+}
+
+.main-menu:hover,
+nav.main-menu.expanded {
+  width: 250px;
+  overflow: visible;
+  box-shadow: 6px 0px 12px 1px rgba(0, 0, 0, 0.45);
+}
+
+.main-menu {
+  background: white;
+  height: 100vh;
+  width: 4.4rem;
+  overflow: hidden;
+  -webkit-transition: width 0.05s linear;
+  transition: width 0.05s linear;
+  transform: translateZ(0) scale(1, 1);
+  /* z-index: 1000; */
+  box-shadow: 6px 0px 12px 1px rgba(0, 0, 0, 0.45);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.main-menu .nav-text {
+  display: table-cell;
+  vertical-align: middle;
+  width: 190px;
+  font-family: "Kollektif", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+  margin: 20px 0;
+  padding: 0;
+}
+
+.NavListItem {
+  height: 3rem;
+  cursor: pointer;
+  width: 250px;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.has-subnav {
+  display: flex;
+  flex-direction: column;
+  display: table;
+  transition: all 0.1s linear;
+}
+
+.has-subnav:hover {
+  background-color: #a186c2;
+  color: white;
+  cursor: pointer;
+  box-shadow: 7px 7px 11px -7px rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+  .sideBar {
+    display: none;
+  }
+  .topBar {
+    display: flex;
+  }
+
+  .topIcon {
+    color: black;
+    width: 33px;
+    height: 35px;
+  }
+}
+
+/* .main-menu > ul {
+  margin: 7px 0;
+} */
+
+/* .main-menu li:hover > a,
+nav.main-menu li.active > a,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,
+.dashboard-page nav.dashboard-menu ul li.active a {
+  color: white;
+  background-color: #8764b1;
+} */
+
+/* .main-menu .nav-icon {
+  position: relative;
+  display: table-cell;
+  width: 60px;
+  height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+} */
+
+/* .no-touch .scrollable.hover {
+  overflow-y: hidden;
+} */
+
+/* .no-touch .scrollable.hover:hover {
+  overflow-y: auto;
+  overflow: visible;
+} */
+/* 
+a:hover,
+a:focus {
+  text-decoration: none;
+} */
+
+/* nav {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+} */

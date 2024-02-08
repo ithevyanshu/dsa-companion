@@ -1,0 +1,1273 @@
+{
+  "name": "GeeksForGeeks DSA Sheet",
+  "problemCount": 195,
+  "topicCount": 16,
+  "divisions": [
+    {
+      "name": "Arrays",
+      "problemCount": 17,
+      "problems": [
+        {
+          "id": 1,
+          "name": "Leaders in an array",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/leaders-in-an-array/0"
+        },
+        {
+          "id": 2,
+          "name": "Equilibrium point",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/equilibrium-point/0"
+        },
+        {
+          "id": 3,
+          "name": "Sort an array of 0s, 1s and 2s",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0"
+        },
+        {
+          "id": 4,
+          "name": "Reverse array in groups",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/reverse-array-in-groups/0"
+        },
+        {
+          "id": 5,
+          "name": "Convert array into Zig-Zag fashion",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/convert-array-into-zig-zag-fashion/0"
+        },
+        {
+          "id": 6,
+          "name": "Rearrange array alternatively",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/-rearrange-array-alternately/0/"
+        },
+        {
+          "id": 7,
+          "name": "Missing number in array",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/missing-number-in-array/0"
+        },
+        {
+          "id": 8,
+          "name": "K-th element of two sorted Arrays",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array/0"
+        },
+        {
+          "id": 9,
+          "name": "Check if two arrays are equal or not",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/check-if-two-arrays-are-equal-or-not/0"
+        },
+        {
+          "id": 10,
+          "name": "Kadane’s Algorithm",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0"
+        },
+        {
+          "id": 11,
+          "name": "Subarray with given sum",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0"
+        },
+        {
+          "id": 12,
+          "name": "Trapping Rain Water",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/trapping-rain-water/0"
+        },
+        {
+          "id": 13,
+          "name": "Minimum Platforms",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/minimum-platforms/0"
+        },
+        {
+          "id": 14,
+          "name": "Stock buy and sell",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0"
+        },
+        {
+          "id": 15,
+          "name": "Largest Number formed from an Array",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/largest-number-formed-from-an-array/0"
+        },
+        {
+          "id": 16,
+          "name": "Largest subarray with 0 sum",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1"
+        },
+        {
+          "id": 17,
+          "name": "Swapping pairs make sum equal",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/swapping-pairs-make-sum-equal/0"
+        }
+      ]
+    },
+    {
+      "name": "Searching And Sorting",
+      "problemCount": 10,
+      "problems": [
+        {
+          "id": 18,
+          "name": "Binary Search",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/binary-search/1"
+        },
+        {
+          "id": 19,
+          "name": "Quick Sort",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/quick-sort/1"
+        },
+        {
+          "id": 20,
+          "name": "Merge Sort",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/merge-sort/1"
+        },
+        {
+          "id": 21,
+          "name": "Merge two sorted arrays",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays/0/"
+        },
+        {
+          "id": 22,
+          "name": "Inversion of Array",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/inversion-of-array/0/"
+        },
+        {
+          "id": 23,
+          "name": "Search in a Rotated Array",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/search-in-a-rotated-array/0"
+        },
+        {
+          "id": 24,
+          "name": "Sorting Elements of an Array by Frequency",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency/0"
+        },
+        {
+          "id": 25,
+          "name": "Sum of Middle Elements of two sorted arrays",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/sum-of-middle-elements-of-two-sorted-arrays/0"
+        },
+        {
+          "id": 26,
+          "name": "K’th smallest element",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/kth-smallest-element/0"
+        },
+        {
+          "id": 27,
+          "name": "Allocate minimum number of pages",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1/"
+        }
+      ]
+    },
+    {
+      "name": "Hashing",
+      "problemCount": 12,
+      "problems": [
+        {
+          "id": 28,
+          "name": "First element to occur k times",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/first-element-to-occur-k-times/0"
+        },
+        {
+          "id": 29,
+          "name": "Find the element that appears once in sorted array",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array/0"
+        },
+        {
+          "id": 30,
+          "name": "Number of pairs",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/number-of-pairs/0/"
+        },
+        {
+          "id": 31,
+          "name": "Find all pairs with a given sum",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/find-all-pairs-whose-sum-is-x/0"
+        },
+        {
+          "id": 32,
+          "name": "Common elements",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/common-elements/0"
+        },
+        {
+          "id": 33,
+          "name": "Find all four sum numbers",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/find-all-four-sum-numbers/0"
+        },
+        {
+          "id": 34,
+          "name": "Count distinct elements in every window",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1"
+        },
+        {
+          "id": 35,
+          "name": "Array Pair Sum Divisibility Problem",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/array-pair-sum-divisibility-problem/0"
+        },
+        {
+          "id": 36,
+          "name": "Longest consecutive subsequence",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/longest-consecutive-subsequence/0"
+        },
+        {
+          "id": 37,
+          "name": "Array Subset of another array",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/array-subset-of-another-array/0"
+        },
+        {
+          "id": 38,
+          "name": "Zero Sum Subarrays",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/zero-sum-subarrays/0"
+        },
+        {
+          "id": 39,
+          "name": "Relative Sorting",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/relative-sorting/0"
+        }
+      ]
+    },
+    {
+      "name": "Matrix",
+      "problemCount": 7,
+      "problems": [
+        {
+          "id": 40,
+          "name": "Rotate a matrix",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/rotate-matrix-elements-clockwise2336/1"
+        },
+        {
+          "id": 41,
+          "name": "Spirally traversing a matrix",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1/"
+        },
+        {
+          "id": 42,
+          "name": "Search in a row wise and column wise sorted matrix",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/search-in-a-matrix-1587115621/1/"
+        },
+        {
+          "id": 43,
+          "name": "Print all palindromic paths from top left to bottom right in a matrix",
+          "difficulty": "",
+          "link1": "https://www.geeksforgeeks.org/print-palindromic-paths-top-left-bottom-right-matrix/"
+        },
+        {
+          "id": 44,
+          "name": "Find the row with maximum number of 1s",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/maximum-no-of-1s-row3027/1/"
+        },
+        {
+          "id": 45,
+          "name": "Find median in row wise sorted matrix",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1/"
+        },
+        {
+          "id": 46,
+          "name": "Check if all rows of a matrix are circular rotations of each other",
+          "difficulty": "",
+          "link1": "https://www.geeksforgeeks.org/check-rows-matrix-circular-rotations/"
+        }
+      ]
+    },
+    {
+      "name": "String",
+      "problemCount": 16,
+      "problems": [
+        {
+          "id": 47,
+          "name": "Find first repeated character",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/find-first-repeated-character/0"
+        },
+        {
+          "id": 48,
+          "name": "Reverse words in a given string",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string/0"
+        },
+        {
+          "id": 49,
+          "name": "Check if string is rotated by two places",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/check-if-string-is-rotated-by-two-places/0"
+        },
+        {
+          "id": 50,
+          "name": "Roman Number to Integer",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/roman-number-to-integer/0"
+        },
+        {
+          "id": 51,
+          "name": "Anagram",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/anagram/0"
+        },
+        {
+          "id": 52,
+          "name": "Remove Duplicates",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/remove-duplicates/0"
+        },
+        {
+          "id": 53,
+          "name": "Longest Distinct Characters in the string",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/longest-distinct-characters-in-string/0"
+        },
+        {
+          "id": 54,
+          "name": "Implement Atoi",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/implement-atoi/1"
+        },
+        {
+          "id": 55,
+          "name": "Implement strstr",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/implement-strstr/1"
+        },
+        {
+          "id": 56,
+          "name": "Rabin Karp Algorithm",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/31272eef104840f7430ad9fd1d43b434a4b9596b/1/"
+        },
+        {
+          "id": 57,
+          "name": "KMP Algorithm",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/longest-prefix-suffix2527/1"
+        },
+        {
+          "id": 58,
+          "name": "Convert a Sentence into its equivalent mobile numeric keypad sequence.",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/convert-a-sentence-into-its-equivalent-mobile-numeric-keypad-sequence/0"
+        },
+        {
+          "id": 59,
+          "name": "Longest Common Prefix",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array/0"
+        },
+        {
+          "id": 60,
+          "name": "Smallest window in a string containing all the characters of another string",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string/0"
+        },
+        {
+          "id": 61,
+          "name": "Uncommon characters",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/uncommon-characters/0"
+        },
+        {
+          "id": 62,
+          "name": "Minimum indexed character",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/minimum-indexed-character/0"
+        }
+      ]
+    },
+    {
+      "name": "Recursion And Backtracking",
+      "problemCount": 9,
+      "problems": [
+        {
+          "id": 63,
+          "name": "Recursively remove all adjacent duplicates",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/recursively-remove-all-adjacent-duplicates/0"
+        },
+        {
+          "id": 64,
+          "name": "Tower Of Hanoi",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1"
+        },
+        {
+          "id": 65,
+          "name": "Special Keyboard",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/special-keyboard3018/1/"
+        },
+        {
+          "id": 66,
+          "name": "Permutations of a given string",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string/0"
+        },
+        {
+          "id": 67,
+          "name": "N-Queen Problem",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/n-queen-problem/0"
+        },
+        {
+          "id": 68,
+          "name": "Solve the Sudoku",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/solve-the-sudoku/0"
+        },
+        {
+          "id": 69,
+          "name": "Rat in a Maze Problem",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1"
+        },
+        {
+          "id": 70,
+          "name": "Word Boggle",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/word-boggle/0"
+        },
+        {
+          "id": 71,
+          "name": "Generate IP Addresses",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/generate-ip-addresses/1"
+        }
+      ]
+    },
+    {
+      "name": "Bit Manipulation",
+      "problemCount": 14,
+      "problems": [
+        {
+          "id": 72,
+          "name": "Find first set bit",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/find-first-set-bit/0"
+        },
+        {
+          "id": 73,
+          "name": "Rightmost different bit",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/rightmost-different-bit/0"
+        },
+        {
+          "id": 74,
+          "name": "Check whether K-th bit is set or not",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not/0"
+        },
+        {
+          "id": 75,
+          "name": "Toggle bits given range",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/toggle-bits-given-range/0"
+        },
+        {
+          "id": 76,
+          "name": "Set kth bit",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/set-kth-bit/0"
+        },
+        {
+          "id": 77,
+          "name": "Power of 2",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/power-of-2/0"
+        },
+        {
+          "id": 78,
+          "name": "Bit Difference",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/bit-difference/0"
+        },
+        {
+          "id": 79,
+          "name": "Rotate Bits",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/rotate-bits/0"
+        },
+        {
+          "id": 80,
+          "name": "Swap all odd and even bits",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/swap-all-odd-and-even-bits/0"
+        },
+        {
+          "id": 81,
+          "name": "Count total set bits",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/count-total-set-bits/0"
+        },
+        {
+          "id": 82,
+          "name": "Longest Consecutive 1’s",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/longest-consecutive-1s/0"
+        },
+        {
+          "id": 83,
+          "name": "Sparse Number",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/number-is-sparse-or-not/0"
+        },
+        {
+          "id": 84,
+          "name": "Alone in a couple",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/alone-in-couple/0"
+        },
+        {
+          "id": 85,
+          "name": "Maximum subset XOR",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/maximum-subset-xor/1"
+        }
+      ]
+    },
+    {
+      "name": "Stack And Queue",
+      "problemCount": 13,
+      "problems": [
+        {
+          "id": 86,
+          "name": "Parenthesis Checker",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/parenthesis-checker/0"
+        },
+        {
+          "id": 87,
+          "name": "Merge Overlapping Intervals",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/8a644e94faaa94968d8665ba9e0a80d1ae3e0a2d/1/"
+        },
+        {
+          "id": 88,
+          "name": "Stock span problem",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1/"
+        },
+        {
+          "id": 89,
+          "name": "Next larger element",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/next-larger-element/0"
+        },
+        {
+          "id": 90,
+          "name": "Largest Rectangular Area in a Histogram",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1"
+        },
+        {
+          "id": 91,
+          "name": "Queue using two Stacks",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1"
+        },
+        {
+          "id": 92,
+          "name": "Stack using two queues",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1"
+        },
+        {
+          "id": 93,
+          "name": "Get minimum element from stack",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1"
+        },
+        {
+          "id": 94,
+          "name": "LRU Cache",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/lru-cache/1"
+        },
+        {
+          "id": 95,
+          "name": "Circular tour",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/circular-tour/1"
+        },
+        {
+          "id": 96,
+          "name": "First non-repeating character in a stream",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/0"
+        },
+        {
+          "id": 97,
+          "name": "Rotten Oranges",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/rotten-oranges/0"
+        },
+        {
+          "id": 98,
+          "name": "Maximum of all subarrays of size k",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k/0"
+        }
+      ]
+    },
+    {
+      "name": "Linked List",
+      "problemCount": 17,
+      "problems": [
+        {
+          "id": 99,
+          "name": "Finding middle element in a Linked list",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-Linked-list/1"
+        },
+        {
+          "id": 100,
+          "name": "Reverse a Linked list",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/reverse-a-Linked-list/1"
+        },
+        {
+          "id": 101,
+          "name": "Rotate a Linked List",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/rotate-a-Linked-list/1"
+        },
+        {
+          "id": 102,
+          "name": "Reverse a Linked List in groups of given size",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/reverse-a-Linked-list-in-groups-of-given-size/1"
+        },
+        {
+          "id": 103,
+          "name": "Intersection point in Y shaped Linked lists",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-Linked-lists/1/"
+        },
+        {
+          "id": 104,
+          "name": "Detect Loop in Linked list",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/detect-loop-in-Linked-list/1"
+        },
+        {
+          "id": 105,
+          "name": "Remove loop in Linked List",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/remove-loop-in-Linked-list/1"
+        },
+        {
+          "id": 106,
+          "name": "n’th node from end of Linked list",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-Linked-list/1"
+        },
+        {
+          "id": 107,
+          "name": "Flattening a Linked List",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/flattening-a-Linked-list/1"
+        },
+        {
+          "id": 108,
+          "name": "Merge two sorted Linked lists",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/merge-two-sorted-Linked-lists/1"
+        },
+        {
+          "id": 109,
+          "name": "Pairwise swap of a Linked list",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-Linked-list-by-swapping-data/1"
+        },
+        {
+          "id": 110,
+          "name": "Add two numbers represented by Linked lists",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-Linked-lists/1"
+        },
+        {
+          "id": 111,
+          "name": "Check if Linked List is Palindrome",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/check-if-Linked-list-is-pallindrome/1"
+        },
+        {
+          "id": 112,
+          "name": "Implement Queue using Linked List",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/implement-queue-using-Linked-list/1"
+        },
+        {
+          "id": 113,
+          "name": "Implement Stack using Linked List",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/implement-stack-using-Linked-list/1"
+        },
+        {
+          "id": 114,
+          "name": "Given a Linked list of 0s, 1s and 2s, sort it",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/given-a-Linked-list-of-0s-1s-and-2s-sort-it/1"
+        },
+        {
+          "id": 115,
+          "name": "Delete without head pointer",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1"
+        }
+      ]
+    },
+    {
+      "name": "Binary Tree",
+      "problemCount": 14,
+      "problems": [
+        {
+          "id": 116,
+          "name": "Height of Binary Tree",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1"
+        },
+        {
+          "id": 117,
+          "name": "Number of leaf nodes",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/count-leaves-in-binary-tree/1"
+        },
+        {
+          "id": 118,
+          "name": "Check if given Binary Tree is Height Balanced or Not",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1"
+        },
+        {
+          "id": 119,
+          "name": "Write Code to Determine if Two Trees are Identical or Not",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1"
+        },
+        {
+          "id": 120,
+          "name": "Given a binary tree, check whether it is a mirror of itself",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/symmetric-tree/1"
+        },
+        {
+          "id": 121,
+          "name": "Maximum Path Sum",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/maximum-path-sum/1"
+        },
+        {
+          "id": 122,
+          "name": "Print Left View of Binary Tree",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1"
+        },
+        {
+          "id": 123,
+          "name": "Print Bottom View of Binary Tree",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1"
+        },
+        {
+          "id": 124,
+          "name": "Print a Binary Tree in Vertical Order",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/1"
+        },
+        {
+          "id": 125,
+          "name": "Diameter of a Binary Tree",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/diameter-of-binary-tree/1"
+        },
+        {
+          "id": 126,
+          "name": "Level order traversal in spiral form",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1"
+        },
+        {
+          "id": 127,
+          "name": "Connect Nodes at Same Level",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/connect-nodes-at-same-level/1"
+        },
+        {
+          "id": 128,
+          "name": "Convert a given Binary Tree to Doubly Linked List",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1"
+        },
+        {
+          "id": 129,
+          "name": "Serialize and Deserialize a Binary Tree",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/serialize-and-deserialize-a-binary-tree/1"
+        }
+      ]
+    },
+    {
+      "name": "Binary Search Tree",
+      "problemCount": 6,
+      "problems": [
+        {
+          "id": 130,
+          "name": "Check for BST",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/check-for-bst/1"
+        },
+        {
+          "id": 131,
+          "name": "Lowest Common Ancestor in a BST",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1"
+        },
+        {
+          "id": 132,
+          "name": "Ceil in BST",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/implementing-ceil-in-bst/1"
+        },
+        {
+          "id": 133,
+          "name": "K-th Largest Element in BST",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/kth-largest-element-in-bst/1/"
+        },
+        {
+          "id": 134,
+          "name": "Largest BST in Binary Tree",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/largest-bst/1"
+        },
+        {
+          "id": 135,
+          "name": "Merge Two Balanced Binary Search Trees",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/merge-two-bst-s/1"
+        },
+        {
+          "id": 136,
+          "name": "Sorted Array to Balanced BST",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/array-to-bst4443/1/"
+        }
+      ]
+    },
+    {
+      "name": "Greedy Approach",
+      "problemCount": 10,
+      "problems": [
+        {
+          "id": 137,
+          "name": "Activity Selection",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/activity-selection/0"
+        },
+        {
+          "id": 138,
+          "name": "N meetings in one room",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0"
+        },
+        {
+          "id": 139,
+          "name": "Coin Piles",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/coin-piles/0"
+        },
+        {
+          "id": 140,
+          "name": "Maximize Toys",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/maximize-toys/0"
+        },
+        {
+          "id": 141,
+          "name": "Page Faults in LRU",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/page-faults-in-lru/0"
+        },
+        {
+          "id": 142,
+          "name": "Largest number possible",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/largest-number-possible/0"
+        },
+        {
+          "id": 143,
+          "name": "Minimize the heights",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/minimize-the-heights/0"
+        },
+        {
+          "id": 144,
+          "name": "Minimize the sum of product",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/minimize-the-sum-of-product/0"
+        },
+        {
+          "id": 145,
+          "name": "Huffman Decoding",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/huffman-decoding-1/1"
+        },
+        {
+          "id": 146,
+          "name": "Minimum Spanning Tree",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1"
+        }
+      ]
+    },
+    {
+      "name": "Dynamic Programming",
+      "problemCount": 18,
+      "problems": [
+        {
+          "id": 147,
+          "name": "Minimum number of Coins",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/-minimum-number-of-coins/0"
+        },
+        {
+          "id": 148,
+          "name": "Longest Common Substring",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/longest-common-substring/0"
+        },
+        {
+          "id": 149,
+          "name": "Longest Increasing Subsequence",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0"
+        },
+        {
+          "id": 150,
+          "name": "Longest Common Subsequence",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0"
+        },
+        {
+          "id": 151,
+          "name": "0 – 1 Knapsack Problem",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0"
+        },
+        {
+          "id": 152,
+          "name": "Maximum sum increasing subsequence",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/maximum-sum-increasing-subsequence/0"
+        },
+        {
+          "id": 153,
+          "name": "Minimum number of jumps",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0"
+        },
+        {
+          "id": 154,
+          "name": "Edit Distance",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/edit-distance/0"
+        },
+        {
+          "id": 155,
+          "name": "Coin Change Problem",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/coin-change/0"
+        },
+        {
+          "id": 156,
+          "name": "Subset Sum Problem",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/subset-sum-problem/0"
+        },
+        {
+          "id": 157,
+          "name": "Longest Palindrome in a String",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string/0"
+        },
+        {
+          "id": 158,
+          "name": "Form a Palindrome",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/form-a-palindrome/0"
+        },
+        {
+          "id": 159,
+          "name": "Box Stacking",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/box-stacking/1"
+        },
+        {
+          "id": 160,
+          "name": "Rod Cutting",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/cutted-segments/0"
+        },
+        {
+          "id": 161,
+          "name": "Min Cost Path",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/path-in-matrix/0"
+        },
+        {
+          "id": 162,
+          "name": "Minimum sum partition",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/minimum-sum-partition/0"
+        },
+        {
+          "id": 163,
+          "name": "Count number of ways to cover a distance",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/count-number-of-hops/0"
+        },
+        {
+          "id": 164,
+          "name": "Egg Dropping Puzzle",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle/0"
+        }
+      ]
+    },
+    {
+      "name": "Heap",
+      "problemCount": 6,
+      "problems": [
+        {
+          "id": 165,
+          "name": "Heap Sort",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/heap-sort/1"
+        },
+        {
+          "id": 166,
+          "name": "Find median in a stream",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/find-median-in-a-stream/0"
+        },
+        {
+          "id": 167,
+          "name": "Operations on Binary Min Heap",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/operations-on-binary-min-heap/1"
+        },
+        {
+          "id": 168,
+          "name": "Rearrange characters",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/rearrange-characters4649/1/"
+        },
+        {
+          "id": 169,
+          "name": "Merge K sorted Linked lists",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/merge-k-sorted-Linked-lists/1"
+        },
+        {
+          "id": 170,
+          "name": "Kth smallest element in a row-column wise sorted matrix",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/kth-element-in-matrix/1"
+        }
+      ]
+    },
+    {
+      "name": "Graph",
+      "problemCount": 16,
+      "problems": [
+        {
+          "id": 171,
+          "name": "Depth First Traversal",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1"
+        },
+        {
+          "id": 172,
+          "name": "Breadth First Traversal",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1"
+        },
+        {
+          "id": 173,
+          "name": "Detect cycle in undirected graph",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1/"
+        },
+        {
+          "id": 174,
+          "name": "Detect cycle in a directed graph",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1"
+        },
+        {
+          "id": 175,
+          "name": "Topological sort",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/topological-sort/1"
+        },
+        {
+          "id": 176,
+          "name": "Find the number of islands",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1"
+        },
+        {
+          "id": 177,
+          "name": "Implementing Dijkstra",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1"
+        },
+        {
+          "id": 178,
+          "name": "Minimum Swaps",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/minimum-swaps/1"
+        },
+        {
+          "id": 179,
+          "name": "Strongly Connected Components",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1"
+        },
+        {
+          "id": 180,
+          "name": "Shortest Source to Destination Path",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/shortest-source-to-destination-path/0"
+        },
+        {
+          "id": 181,
+          "name": "Find whether path exist",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/find-whether-path-exist/0"
+        },
+        {
+          "id": 182,
+          "name": "Minimum Cost Path",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/minimum-cost-path/0"
+        },
+        {
+          "id": 183,
+          "name": "Circle of Strings",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/circle-of-strings/0"
+        },
+        {
+          "id": 184,
+          "name": "Floyd Warshall",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall/0"
+        },
+        {
+          "id": 185,
+          "name": "Alien Dictionary",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/alien-dictionary/1"
+        },
+        {
+          "id": 186,
+          "name": "Snake and Ladder Problem",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/snake-and-ladder-problem/0"
+        }
+      ]
+    },
+    {
+      "name": "Trie",
+      "problemCount": 9,
+      "problems": [
+        {
+          "id": 187,
+          "name": "Trie | (Insert and Search)",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/trie-insert-and-search0651/1/"
+        },
+        {
+          "id": 188,
+          "name": "Trie | (Delete)",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/trie-delete/1/"
+        },
+        {
+          "id": 189,
+          "name": "Print unique rows in a given Binary matrix",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/unique-rows-in-boolean-matrix/1"
+        },
+        {
+          "id": 190,
+          "name": "Counting the number of words in a Trie",
+          "difficulty": "",
+          "link1": "https://www.geeksforgeeks.org/counting-number-words-trie"
+        },
+        {
+          "id": 191,
+          "name": "Longest Common Prefix using Trie",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array/0"
+        },
+        {
+          "id": 192,
+          "name": "Auto-complete feature using Trie",
+          "difficulty": "",
+          "link1": "https://www.geeksforgeeks.org/auto-complete-feature-using-trie/"
+        },
+        {
+          "id": 193,
+          "name": "Boggle | Set 2 (Using Trie)",
+          "difficulty": "",
+          "link1": "https://www.geeksforgeeks.org/boggle-set-2-using-trie/"
+        },
+        {
+          "id": 194,
+          "name": "Minimum XOR Value Pair",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/minimum-xor-value-pair/0"
+        },
+        {
+          "id": 195,
+          "name": "Palindrome pair in an array of words (or strings)",
+          "difficulty": "",
+          "link1": "https://practice.geeksforgeeks.org/problems/palindrome-pairs/1"
+        }
+      ]
+    }
+  ]
+}

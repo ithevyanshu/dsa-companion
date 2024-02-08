@@ -1,0 +1,94 @@
+{
+  "cardData": [
+    {
+      "id": 1,
+      "titleName": "Striver SDE Sheet",
+      "subtitle": "191 Curated Problems",
+      "summary": "Sheet with the sole purpose of quick revision of top coding interview problems.",
+      "credits": "Striver (Raj Vikramaditya)",
+      "Links": {
+        "link1": "https://takeuforward.org/",
+        "link1info": "Website",
+        "link2": "https://www.youtube.com/c/takeUforward",
+        "link2info": "YouTube"
+      },
+      "imgLink": "https://i.postimg.cc/6qCXQ577/tuf.png",
+      "problemCount": 191
+    },
+    {
+      "id": 2,
+      "titleName": "Love Babbar SDE Sheet",
+      "subtitle": "450 Curated Problems",
+      "summary": "A sheet that covers almost every concept of Data Structures and Algorithms.",
+      "credits": "Love Babbar",
+      "Links": {
+        "link1": "https://www.thecodehelp.in/",
+        "link1info": "Website",
+        "link2": "https://www.thecodehelp.in/",
+        "link2info": "YouTube"
+      },
+      "imgLink": "https://i.postimg.cc/G3T3Nbpn/love.jpg",
+      "problemCount": 450
+    },
+    {
+      "id": 3,
+      "titleName": "Blind 75",
+      "subtitle": "75 Curated Problems",
+      "summary": "A list of the most important 75 questions on LeetCode.",
+      "credits": "Blind 75",
+      "Links": {
+        "link1": "https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU",
+        "link1info": "blind75",
+        "link2": "https://www.teamblind.com/",
+        "link2info": "teamblind"
+      },
+      "imgLink": "https://i.postimg.cc/Yq4r5Mqw/blind.png",
+      "problemCount": 75
+    },
+    {
+      "id": 4,
+      "titleName": "Grind 169",
+      "subtitle": "169 Curated Problems",
+      "summary": "Grind 169 is a better version of Blind 75 which goes beyond 75 questions.",
+      "credits": "Technical Interview Handbook",
+      "Links": {
+        "link1": "https://www.techinterviewhandbook.org/grind75",
+        "link1info": "grind75",
+        "link2": "https://www.techinterviewhandbook.org/",
+        "link2info": "Website"
+      },
+      "imgLink": "https://i.postimg.cc/SsRzxG6v/grind169.png",
+      "problemCount": 169
+    },
+    {
+      "id": 5,
+      "titleName": "GeeksForGeeks Sheet",
+      "subtitle": "Covers all the segments round-wise",
+      "summary": "This Sheet is a list of the most important topics asked in SDE Interviews.",
+      "credits": "GeeksForGeeks",
+      "Links": {
+        "link1": "https://www.geeksforgeeks.org/sde-sheet-a-complete-guide-for-sde-preparation/",
+        "link1info": "GeeksForGeeks Sheet",
+        "link2": "https://www.geeksforgeeks.org/",
+        "link2info": "Website"
+      },
+      "imgLink": "https://i.postimg.cc/vm3Pjw6H/gfg.png",
+      "problemCount": 195
+    },
+    {
+      "id": 6,
+      "titleName": "Arsh Goyal Sheet",
+      "subtitle": "280 Curated Problems",
+      "summary": "Curated list of previous year and most frequently asked DSA problems.",
+      "credits": "Arsh Goyal",
+      "Links": {
+        "link1": "https://www.codekickstart.org/",
+        "link1info": "Website",
+        "link2": "https://www.youtube.com/c/ArshGoyal",
+        "link2info": "YouTube"
+      },
+      "imgLink": "https://i.postimg.cc/QxCNj4w6/Arsh.png",
+      "problemCount": 297
+    }
+  ]
+}

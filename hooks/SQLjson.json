@@ -1,0 +1,1138 @@
+{
+  "name": "Everything about SQL",
+  "description": "Collection of all the important SQL queries & LeetCode problems",
+  "topics": [
+    {
+      "name": "SQL Keywords",
+      "divisions": [
+        {
+          "name": "Keywords",
+          "description": "Keywords are the reserved words in SQL. These are the words that cannot be used as identifiers. These are the words that are used to define the syntax and structure of the SQL statements. These are the words that are used to define the data types, functions, and other elements in SQL.",
+          "items": [
+            {
+              "name": "ADD",
+              "description": "The ADD keyword is used to add a column to an existing table.",
+              "example": "ADD column_name datatype"
+            },
+            {
+              "name": "ADD CONSTRAINT",
+              "description": "The ADD CONSTRAINT keyword is used to add a constraint to an existing table.",
+              "example": "ADD CONSTRAINT constraint_name constraint_type"
+            },
+            {
+              "name": "ALL",
+              "description": "The ALL keyword is used to return all the rows from a table that satisfy a condition.",
+              "example": "SELECT column_name(s) FROM table_name WHERE column_name operator ALL (SELECT column_name FROM table_name WHERE condition);"
+            },
+            {
+              "name": "ALTER TABLE",
+              "description": "The ALTER TABLE keyword is used to add, delete, or modify columns in an existing table.",
+              "example": "ALTER TABLE table_name ADD column_name datatype"
+            },
+            {
+              "name": "AND",
+              "description": "The AND keyword is used to combine two or more conditions in a WHERE clause, a HAVING clause, or a Boolean expression.",
+              "example": "SELECT column_name(s) FROM table_name WHERE condition1 AND condition2 AND condition3 ..."
+            },
+            {
+              "name": "ANY",
+              "description": "The ANY keyword is used to return all the rows from a table that satisfy a condition.",
+              "example": "SELECT column_name(s) FROM table_name WHERE column_name operator ANY (SELECT column_name FROM table_name WHERE condition);"
+            },
+            {
+              "name": "AS",
+              "description": "The AS keyword is used to assign an alias to a table or a column.",
+              "example": "SELECT column_name AS alias_name FROM table_name"
+            },
+            {
+              "name": "ASC",
+              "description": "The ASC keyword is used to sort the result-set in ascending order.",
+              "example": "SELECT column_name(s) FROM table_name ORDER BY column_name ASC"
+            },
+            {
+              "name": "BETWEEN",
+              "description": "The BETWEEN keyword is used to filter the result-set within a certain range.",
+              "example": "SELECT column_name(s) FROM table_name WHERE column_name BETWEEN value1 AND value2"
+            },
+            {
+              "name": "BY",
+              "description": "The BY keyword is used to sort the result-set in ascending or descending order.",
+              "example": "SELECT column_name(s) FROM table_name ORDER BY column_name ASC|DESC"
+            },
+            {
+              "name": "CASE",
+              "description": "The CASE keyword is used to create different outputs (usually in the SELECT statement). It is SQL's way of handling if-then-else logic.",
+              "example": "SELECT column_name, CASE WHEN condition THEN result END FROM table_name"
+            },
+            {
+              "name": "CHECK",
+              "description": "The CHECK keyword is used to limit the value range that can be placed in a column.",
+              "example": "CREATE TABLE table_name (column_name datatype CHECK (condition));"
+            },
+            {
+              "name": "COLUMN",
+              "description": "The COLUMN keyword is used to specify the column name in a table.",
+              "example": "SELECT column_name(s) FROM table_name"
+            },
+            {
+              "name": "CONSTRAINT",
+              "description": "The CONSTRAINT keyword is used to specify a constraint on a table.",
+              "example": "CREATE TABLE table_name (column_name datatype CONSTRAINT constraint_name);"
+            },
+            {
+              "name": "CREATE",
+              "description": "The CREATE keyword is used to create a database, a table, a view, a stored procedure, a function, an index, or a trigger.",
+              "example": "CREATE DATABASE database_name"
+            },
+            {
+              "name": "DATABASE",
+              "description": "The DATABASE keyword is used to create a database.",
+              "example": "CREATE DATABASE database_name"
+            },
+            {
+              "name": "DEFAULT",
+              "description": "The DEFAULT keyword is used to provide a default value for a column.",
+              "example": "CREATE TABLE table_name (column_name datatype DEFAULT default_value);"
+            },
+            {
+              "name": "DELETE",
+              "description": "The DELETE keyword is used to delete records from a table.",
+              "example": "DELETE FROM table_name WHERE condition"
+            },
+            {
+              "name": "DESC",
+              "description": "The DESC keyword is used to sort the result-set in descending order.",
+              "example": "SELECT column_name(s) FROM table_name ORDER BY column_name DESC"
+            },
+            {
+              "name": "DISTINCT",
+              "description": "The DISTINCT keyword is used to return only distinct (different) values.",
+              "example": "SELECT DISTINCT column_name(s) FROM table_name"
+            },
+            {
+              "name": "DROP",
+              "description": "The DROP keyword is used to delete objects from the database.",
+              "example": "DROP DATABASE database_name"
+            },
+            {
+              "name": "ELSE",
+              "description": "The ELSE keyword is used with the CASE statement to specify a different result if none of the conditions are true.",
+              "example": "SELECT column_name, CASE WHEN condition THEN result ELSE result END FROM table_name"
+            },
+            {
+              "name": "END",
+              "description": "The END keyword is used to mark the end of a CASE statement.",
+              "example": "SELECT column_name, CASE WHEN condition THEN result ELSE result END FROM table_name"
+            },
+            {
+              "name": "EXISTS",
+              "description": "The EXISTS keyword is used to test for the existence of any record in a subquery.",
+              "example": "SELECT column_name(s) FROM table_name WHERE EXISTS (SELECT column_name FROM table_name WHERE condition);"
+            },
+            {
+              "name": "FOREIGN KEY",
+              "description": "The FOREIGN KEY keyword is used to prevent actions that would destroy links between tables.",
+              "example": "CREATE TABLE table_name (column_name datatype, FOREIGN KEY (column_name) REFERENCES table_name);"
+            },
+            {
+              "name": "FROM",
+              "description": "The FROM keyword is used to specify the list of tables to be used in the query.",
+              "example": "SELECT column_name(s) FROM table_name"
+            },
+            {
+              "name": "FULL OUTER JOIN",
+              "description": "The FULL OUTER JOIN keyword returns all records when there is a match in either left (table1) or right (table2) table records.",
+              "example": "SELECT column_name(s) FROM table1 FULL OUTER JOIN table2 ON table1.column_name=table2.column_name"
+            },
+            {
+              "name": "GROUP BY",
+              "description": "The GROUP BY keyword is used to group the result-set by one or more columns.",
+              "example": "SELECT column_name, aggregate_function(column_name) FROM table_name WHERE condition GROUP BY column_name"
+            },
+            {
+              "name": "HAVING",
+              "description": "The HAVING keyword is used to filter records based on a condition after the GROUP BY clause.",
+              "example": "SELECT column_name, aggregate_function(column_name) FROM table_name WHERE condition GROUP BY column_name HAVING condition"
+            },
+            {
+              "name": "IN",
+              "description": "The IN keyword is used to filter the result-set within a list of values.",
+              "example": "SELECT column_name(s) FROM table_name WHERE column_name IN (value1, value2, ...)"
+            },
+            {
+              "name": "INDEX",
+              "description": "The INDEX keyword is used to create and retrieve index information from the database.",
+              "example": "CREATE INDEX index_name ON table_name (column_name);"
+            },
+            {
+              "name": "INNER JOIN",
+              "description": "The INNER JOIN keyword selects all rows from both tables as long as there is a match between the columns in both tables.",
+              "example": "SELECT column_name(s) FROM table1 INNER JOIN table2 ON table1.column_name=table2.column_name"
+            },
+            {
+              "name": "INSERT INTO",
+              "description": "The INSERT INTO keyword is used to insert new records in a table.",
+              "example": "INSERT INTO table_name VALUES (value1, value2, value3, ...)"
+            },
+            {
+              "name": "INSERT INTO SELECT",
+              "description": "The INSERT INTO SELECT statement copies data from one table and inserts it into another table.",
+              "example": "INSERT INTO table2 SELECT column_name(s) FROM table1 WHERE condition"
+            },
+            {
+              "name": "IS NULL",
+              "description": "The IS NULL keyword is used to test for an empty value (NULL).",
+              "example": "SELECT column_name(s) FROM table_name WHERE column_name IS NULL"
+            },
+            {
+              "name": "IS NOT NULL",
+              "description": "The IS NOT NULL keyword is used to test for any value other than NULL.",
+              "example": "SELECT column_name(s) FROM table_name WHERE column_name IS NOT NULL"
+            },
+            {
+              "name": "JOIN",
+              "description": "The JOIN keyword is used to combine rows from two or more tables, based on a related column between them.",
+              "example": "SELECT column_name(s) FROM table1 INNER JOIN table2 ON table1.column_name=table2.column_name"
+            },
+            {
+              "name": "LEFT JOIN",
+              "description": "The LEFT JOIN keyword returns all records from the left table (table1), and the matched records from the right table (table2). The result is NULL from the right side, if there is no match.",
+              "example": "SELECT column_name(s) FROM table1 LEFT JOIN table2 ON table1.column_name=table2.column_name"
+            },
+            {
+              "name": "LIKE",
+              "description": "The LIKE keyword is used in a WHERE clause to search for a specified pattern in a column.",
+              "example": "SELECT column_name(s) FROM table_name WHERE column_name LIKE pattern"
+            },
+            {
+              "name": "LIMIT",
+              "description": "The LIMIT keyword is used to specify the maximum number of records to be returned by the query.",
+              "example": "SELECT column_name(s) FROM table_name LIMIT number"
+            },
+            {
+              "name": "NOT",
+              "description": "The NOT keyword is used to reverse the result of a condition.",
+              "example": "SELECT column_name(s) FROM table_name WHERE NOT condition"
+            },
+            {
+              "name": "NOT NULL",
+              "description": "The NOT NULL constraint ensures that a column cannot have a NULL value.",
+              "example": "CREATE TABLE table_name (column_name datatype NOT NULL);"
+            },
+            {
+              "name": "OR",
+              "description": "The OR keyword is used to filter records where any of the conditions is true.",
+              "example": "SELECT column_name(s) FROM table_name WHERE condition1 OR condition2"
+            },
+            {
+              "name": "ORDER BY",
+              "description": "The ORDER BY keyword is used to sort the result-set in ascending or descending order.",
+              "example": "SELECT column_name(s) FROM table_name ORDER BY column_name ASC|DESC"
+            },
+            {
+              "name": "OUTER JOIN",
+              "description": "The OUTER JOIN keyword returns all records when there is a match in either left (table1) or right (table2) table records.",
+              "example": "SELECT column_name(s) FROM table1 FULL OUTER JOIN table2 ON table1.column_name=table2.column_name"
+            },
+            {
+              "name": "PRIMARY KEY",
+              "description": "The PRIMARY KEY constraint uniquely identifies each record in a table.",
+              "example": "CREATE TABLE table_name (column_name datatype PRIMARY KEY);"
+            },
+            {
+              "name": "RIGHT JOIN",
+              "description": "The RIGHT JOIN keyword returns all records from the right table (table2), and the matched records from the left table (table1). The result is NULL from the left side, when there is no match.",
+              "example": "SELECT column_name(s) FROM table1 RIGHT JOIN table2 ON table1.column_name=table2.column_name"
+            },
+            {
+              "name": "SELECT",
+              "description": "The SELECT statement is used to select data from a database.",
+              "example": "SELECT column_name(s) FROM table_name"
+            },
+            {
+              "name": "SELECT DISTINCT",
+              "description": "The SELECT DISTINCT statement is used to return only distinct (different) values.",
+              "example": "SELECT DISTINCT column_name(s) FROM table_name"
+            },
+            {
+              "name": "SELECT TOP",
+              "description": "The SELECT TOP statement is used to specify the number of records to return.",
+              "example": "SELECT TOP number|percent column_name(s) FROM table_name"
+            },
+            {
+              "name": "SELECT INTO",
+              "description": "The SELECT INTO statement copies data from one table into a new table.",
+              "example": "SELECT column_name(s) INTO new_table_name [IN external_database] FROM existing_table_name [WHERE condition]"
+            },
+            {
+              "name": "SET",
+              "description": "The SET statement is used to modify the data that already exists in a database.",
+              "example": "UPDATE table_name SET column1=value, column2=value2,... WHERE some_column=some_value"
+            },
+            {
+              "name": "TABLE",
+              "description": "The TABLE keyword is used to create a new table in a database.",
+              "example": "CREATE TABLE table_name (column_name datatype);"
+            },
+            {
+              "name": "UNION",
+              "description": "The UNION operator is used to combine the result-set of two or more SELECT statements.",
+              "example": "SELECT column_name(s) FROM table1 UNION SELECT column_name(s) FROM table2"
+            },
+            {
+              "name": "UNION ALL",
+              "description": "The UNION ALL operator is used to combine the result-set of two or more SELECT statements.",
+              "example": "SELECT column_name(s) FROM table1 UNION ALL SELECT column_name(s) FROM table2"
+            },
+            {
+              "name": "UPDATE",
+              "description": "The UPDATE statement is used to modify the existing records in a table.",
+              "example": "UPDATE table_name SET column1=value, column2=value2,... WHERE some_column=some_value"
+            },
+            {
+              "name": "VALUES",
+              "description": "The VALUES keyword is used along with the INSERT INTO statement to insert one or more specific values into a table.",
+              "example": "INSERT INTO table_name (column1, column2, column3, ...) VALUES (value1, value2, value3, ...)"
+            },
+            {
+              "name": "WHERE",
+              "description": "The WHERE clause is used to filter records.",
+              "example": "SELECT column_name(s) FROM table_name WHERE condition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SQL Data Types",
+      "divisions": [
+        {
+          "name": "String Data Types",
+          "description": "String data types are used to store character strings.",
+          "items": [
+            {
+              "name": "CHAR",
+              "description": "The CHAR data type is used to store a fixed-length string (can contain letters, numbers, and special characters). The fixed length is specified in the column definition.",
+              "example": "CREATE TABLE table_name (column_name CHAR(20));"
+            },
+            {
+              "name": "VARCHAR",
+              "description": "The VARCHAR data type is used to store a variable-length string (can contain letters, numbers, and special characters). The maximum length is specified in the column definition.",
+              "example": "CREATE TABLE table_name (column_name VARCHAR(20));"
+            },
+            {
+              "name": "TEXT",
+              "description": "The TEXT data type is used to store a large amount of text (can contain letters, numbers, and special characters).",
+              "example": "CREATE TABLE table_name (column_name TEXT);"
+            },
+            {
+              "name": "BINARY",
+              "description": "The BINARY data type is used to store a fixed-length string of binary values. The fixed length is specified in the column definition.",
+              "example": "CREATE TABLE table_name (column_name BINARY(20));"
+            },
+            {
+              "name": "VARBINARY",
+              "description": "The VARBINARY data type is used to store a variable-length string of binary values. The maximum length is specified in the column definition.",
+              "example": "CREATE TABLE table_name (column_name VARBINARY(20));"
+            },
+            {
+              "name": "BLOB",
+              "description": "The BLOB data type is used to store a large amount of binary values.",
+              "example": "CREATE TABLE table_name (column_name BLOB);"
+            },
+            {
+              "name": "ENUM",
+              "description": "The ENUM data type is used to store a list of possible values. You can assign a default value. If no default value is assigned, the first value in the list is used as the default value.",
+              "example": "CREATE TABLE table_name (column_name ENUM('value1', 'value2', 'value3') DEFAULT 'value2');"
+            },
+            {
+              "name": "SET",
+              "description": "The SET data type is used to store a list of possible values. You can assign a default value. If no default value is assigned, the first value in the list is used as the default value.",
+              "example": "CREATE TABLE table_name (column_name SET('value1', 'value2', 'value3') DEFAULT 'value2');"
+            }
+          ]
+        },
+        {
+          "name": "Numeric Data Types",
+          "description": "Numeric data types are used to store numeric values.",
+          "items": [
+            {
+              "name": "INT",
+              "description": "The INT data type is used to store integers (whole numbers).",
+              "example": "CREATE TABLE table_name (column_name INT);"
+            },
+            {
+              "name": "TINYINT",
+              "description": "The TINYINT data type is used to store very small integers. The signed range is -128 to 127. The unsigned range is 0 to 255.",
+              "example": "CREATE TABLE table_name (column_name TINYINT);"
+            },
+            {
+              "name": "SMALLINT",
+              "description": "The SMALLINT data type is used to store small integers. The signed range is -32768 to 32767. The unsigned range is 0 to 65535.",
+              "example": "CREATE TABLE table_name (column_name SMALLINT);"
+            },
+            {
+              "name": "MEDIUMINT",
+              "description": "The MEDIUMINT data type is used to store medium-sized integers. The signed range is -8388608 to 8388607. The unsigned range is 0 to 16777215.",
+              "example": "CREATE TABLE table_name (column_name MEDIUMINT);"
+            },
+            {
+              "name": "BIGINT",
+              "description": "The BIGINT data type is used to store large integers. The signed range is -9223372036854775808 to 9223372036854775807. The unsigned range is 0 to 18446744073709551615.",
+              "example": "CREATE TABLE table_name (column_name BIGINT);"
+            },
+            {
+              "name": "DECIMAL",
+              "description": "The DECIMAL data type is used to store fixed-point numbers. The fixed-point number has a fixed decimal point. The maximum number of digits is specified in the column definition.",
+              "example": "CREATE TABLE table_name (column_name DECIMAL(5,2));"
+            },
+            {
+              "name": "FLOAT",
+              "description": "The FLOAT data type is used to store floating-point numbers. The floating-point number has a floating decimal point. The maximum number of digits is specified in the column definition.",
+              "example": "CREATE TABLE table_name (column_name FLOAT(5,2));"
+            },
+            {
+              "name": "DOUBLE",
+              "description": "The DOUBLE data type is used to store large floating-point numbers. The floating-point number has a floating decimal point. The maximum number of digits is specified in the column definition.",
+              "example": "CREATE TABLE table_name (column_name DOUBLE(5,2));"
+            },
+            {
+              "name": "REAL",
+              "description": "The REAL data type is used to store large floating-point numbers. The floating-point number has a floating decimal point. The maximum number of digits is specified in the column definition.",
+              "example": "CREATE TABLE table_name (column_name REAL(5,2));"
+            },
+            {
+              "name": "BIT",
+              "description": "The BIT data type is used to store bit values. The maximum number of bits is specified in the column definition.",
+              "example": "CREATE TABLE table_name (column_name BIT(5));"
+            },
+            {
+              "name": "BOOLEAN",
+              "description": "The BOOLEAN data type is used to store a logical value (TRUE or FALSE).",
+              "example": "CREATE TABLE table_name (column_name BOOLEAN);"
+            },
+            {
+              "name": "SERIAL",
+              "description": "The SERIAL data type is used to store a unique sequential number. The number is automatically incremented by 1 whenever a new record is inserted.",
+              "example": "CREATE TABLE table_name (column_name SERIAL);"
+            }
+          ]
+        },
+        {
+          "name": "Date/Time Data Types",
+          "description": "Date/Time data types are used to store date and time values.",
+          "items": [
+            {
+              "name": "DATE",
+              "description": "The DATE data type is used to store a date value (year, month, day).",
+              "example": "CREATE TABLE table_name (column_name DATE);"
+            },
+            {
+              "name": "DATETIME",
+              "description": "The DATETIME data type is used to store a date and time value (year, month, day, hour, minute, second).",
+              "example": "CREATE TABLE table_name (column_name DATETIME);"
+            },
+            {
+              "name": "TIMESTAMP",
+              "description": "The TIMESTAMP data type is used to store a date and time value (year, month, day, hour, minute, second). The TIMESTAMP value is automatically updated whenever a record is updated.",
+              "example": "CREATE TABLE table_name (column_name TIMESTAMP);"
+            },
+            {
+              "name": "TIME",
+              "description": "The TIME data type is used to store a time value (hour, minute, second).",
+              "example": "CREATE TABLE table_name (column_name TIME);"
+            },
+            {
+              "name": "YEAR",
+              "description": "The YEAR data type is used to store a year value (year).",
+              "example": "CREATE TABLE table_name (column_name YEAR);"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SQL Operators",
+      "description": "SQL operators are used to perform operations on data.",
+      "divisions": [
+        {
+          "name": "Arithmetic Operators",
+          "description": "Arithmetic operators are used to perform arithmetic operations on numeric values.",
+          "items": [
+            {
+              "name": "+",
+              "description": "The + operator adds two numeric values.",
+              "example": "SELECT 5 + 3 AS Result;"
+            },
+            {
+              "name": "-",
+              "description": "The - operator subtracts two numeric values.",
+              "example": "SELECT 5 - 3 AS Result;"
+            },
+            {
+              "name": "*",
+              "description": "The * operator multiplies two numeric values.",
+              "example": "SELECT 5 * 3 AS Result;"
+            },
+            {
+              "name": "/",
+              "description": "The / operator divides two numeric values.",
+              "example": "SELECT 5 / 3 AS Result;"
+            },
+            {
+              "name": "%",
+              "description": "The % operator returns the remainder of two numeric values.",
+              "example": "SELECT 5 % 3 AS Result;"
+            },
+            {
+              "name": "++",
+              "description": "The ++ operator increments a numeric value by 1.",
+              "example": "SELECT 5++ AS Result;"
+            },
+            {
+              "name": "--",
+              "description": "The -- operator decrements a numeric value by 1.",
+              "example": "SELECT 5-- AS Result;"
+            }
+          ]
+        },
+        {
+          "name": "Comparison Operators",
+          "description": "Comparison operators are used to compare two values.",
+          "items": [
+            {
+              "name": "=",
+              "description": "The = operator checks if the values of two operands are equal or not, if yes then condition becomes true.",
+              "example": "SELECT 5 = 3 AS Result;"
+            },
+            {
+              "name": "<>",
+              "description": "The <> operator checks if the values of two operands are equal or not, if values are not equal then condition becomes true.",
+              "example": "SELECT 5 <> 3 AS Result;"
+            },
+            {
+              "name": ">",
+              "description": "The > operator checks if the value of left operand is greater than the value of right operand, if yes then condition becomes true.",
+              "example": "SELECT 5 > 3 AS Result;"
+            },
+            {
+              "name": "<",
+              "description": "The < operator checks if the value of left operand is less than the value of right operand, if yes then condition becomes true.",
+              "example": "SELECT 5 < 3 AS Result;"
+            },
+            {
+              "name": ">=",
+              "description": "The >= operator checks if the value of left operand is greater than or equal to the value of right operand, if yes then condition becomes true.",
+              "example": "SELECT 5 >= 3 AS Result;"
+            },
+            {
+              "name": "<=",
+              "description": "The <= operator checks if the value of left operand is less than or equal to the value of right operand, if yes then condition becomes true.",
+              "example": "SELECT 5 <= 3 AS Result;"
+            }
+          ]
+        },
+        {
+          "name": "Bitwise Operators",
+          "description": "Bitwise operators are used to perform bitwise operations on numeric values.",
+          "items": [
+            {
+              "name": "&",
+              "description": "The & operator performs a bitwise AND operation on two numeric values.",
+              "example": "SELECT 5 & 3 AS Result;"
+            },
+            {
+              "name": "|",
+              "description": "The | operator performs a bitwise OR operation on two numeric values.",
+              "example": "SELECT 5 | 3 AS Result;"
+            },
+            {
+              "name": "^",
+              "description": "The ^ operator performs a bitwise XOR operation on two numeric values.",
+              "example": "SELECT 5 ^ 3 AS Result;"
+            }
+          ]
+        },
+        {
+          "name": "Compound Operators",
+          "description": "Compound operators are used to combine two or more operators.",
+          "items": [
+            {
+              "name": "+=",
+              "description": "The += operator adds the right operand to the left operand and assigns the result to the left operand.",
+              "example": "SELECT 5 += 3 AS Result;"
+            },
+            {
+              "name": "-=",
+              "description": "The -= operator subtracts the right operand from the left operand and assigns the result to the left operand.",
+              "example": "SELECT 5 -= 3 AS Result;"
+            },
+            {
+              "name": "*=",
+              "description": "The *= operator multiplies the right operand with the left operand and assigns the result to the left operand.",
+              "example": "SELECT 5 *= 3 AS Result;"
+            },
+            {
+              "name": "/=",
+              "description": "The /= operator divides the left operand with the right operand and assigns the result to the left operand.",
+              "example": "SELECT 5 /= 3 AS Result;"
+            },
+            {
+              "name": "%=",
+              "description": "The %= operator takes modulus using two operands and assigns the result to the left operand.",
+              "example": "SELECT 5 %= 3 AS Result;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SQL Functions",
+      "description": "SQL functions are used to perform operations on data.",
+      "divisions": [
+        {
+          "name": "String Functions",
+          "description": "String functions are used to perform operations on string values.",
+          "items": [
+            {
+              "name": "ASCII",
+              "description": "The ASCII function returns the ASCII value of the leftmost character of the string.",
+              "example": "SELECT ASCII('Hello') AS Result;"
+            },
+            {
+              "name": "CHAR_LENGTH",
+              "description": "The CHAR_LENGTH function returns the length of a string.",
+              "example": "SELECT CHAR_LENGTH('Hello') AS Result;"
+            },
+            {
+              "name": "CONCAT",
+              "description": "The CONCAT function concatenates two or more strings.",
+              "example": "SELECT CONCAT('Hello', ' ', 'World') AS Result;"
+            },
+            {
+              "name": "FIELD",
+              "description": "The FIELD function returns the index (position) of the first occurrence of the string in a list of strings.",
+              "example": "SELECT FIELD('World', 'Hello', 'World', 'Goodbye') AS Result;"
+            },
+            {
+              "name": "FORMAT",
+              "description": "The FORMAT function formats a number to a specified number of decimal places.",
+              "example": "SELECT FORMAT(123.456, 2) AS Result;"
+            },
+            {
+              "name": "INSERT",
+              "description": "The INSERT function inserts a substring into a string.",
+              "example": "SELECT INSERT('Hello World', 7, 5, 'SQL') AS Result;"
+            },
+            {
+              "name": "INSTR",
+              "description": "The INSTR function returns the position of the first occurrence of a substring in a string.",
+              "example": "SELECT INSTR('Hello World', 'World') AS Result;"
+            },
+            {
+              "name": "LCASE",
+              "description": "The LCASE function converts a string to lowercase.",
+              "example": "SELECT LCASE('Hello World') AS Result;"
+            },
+            {
+              "name": "LEFT",
+              "description": "The LEFT function returns the leftmost characters from a string.",
+              "example": "SELECT LEFT('Hello World', 5) AS Result;"
+            },
+            {
+              "name": "LENGTH",
+              "description": "The LENGTH function returns the length of a string.",
+              "example": "SELECT LENGTH('Hello World') AS Result;"
+            },
+            {
+              "name": "LOCATE",
+              "description": "The LOCATE function returns the position of the first occurrence of a substring in a string.",
+              "example": "SELECT LOCATE('World', 'Hello World') AS Result;"
+            },
+            {
+              "name": "LOWER",
+              "description": "The LOWER function converts a string to lowercase.",
+              "example": "SELECT LOWER('Hello World') AS Result;"
+            },
+            {
+              "name": "LTRIM",
+              "description": "The LTRIM function removes the leftmost spaces from a string.",
+              "example": "SELECT LTRIM(' Hello World') AS Result;"
+            },
+            {
+              "name": "MID",
+              "description": "The MID function returns a substring from a string.",
+              "example": "SELECT MID('Hello World', 7, 5) AS Result;"
+            },
+            {
+              "name": "POSITION",
+              "description": "The POSITION function returns the position of the first occurrence of a substring in a string.",
+              "example": "SELECT POSITION('World' IN 'Hello World') AS Result;"
+            },
+            {
+              "name": "REPEAT",
+              "description": "The REPEAT function repeats a string a specified number of times.",
+              "example": "SELECT REPEAT('Hello', 3) AS Result;"
+            },
+            {
+              "name": "REPLACE",
+              "description": "The REPLACE function replaces all occurrences of a substring in a string with another substring.",
+              "example": "SELECT REPLACE('Hello World', 'World', 'SQL') AS Result;"
+            },
+            {
+              "name": "REVERSE",
+              "description": "The REVERSE function reverses a string.",
+              "example": "SELECT REVERSE('Hello World') AS Result;"
+            },
+            {
+              "name": "RIGHT",
+              "description": "The RIGHT function returns the rightmost characters from a string.",
+              "example": "SELECT RIGHT('Hello World', 5) AS Result;"
+            },
+            {
+              "name": "RTRIM",
+              "description": "The RTRIM function removes the rightmost spaces from a string.",
+              "example": "SELECT RTRIM('Hello World ') AS Result;"
+            },
+            {
+              "name": "SPACE",
+              "description": "The SPACE function returns a string with the specified number of spaces.",
+              "example": "SELECT SPACE(5) AS Result;"
+            },
+            {
+              "name": "STRCMP",
+              "description": "The STRCMP function compares two strings.",
+              "example": "SELECT STRCMP('Hello', 'Hello') AS Result;"
+            },
+            {
+              "name": "SUBSTRING",
+              "description": "The SUBSTRING function returns a substring from a string.",
+              "example": "SELECT SUBSTRING('Hello World', 7, 5) AS Result;"
+            },
+            {
+              "name": "TRIM",
+              "description": "The TRIM function removes the spaces from both ends of a string.",
+              "example": "SELECT TRIM(' Hello World ') AS Result;"
+            },
+            {
+              "name": "UCASE",
+              "description": "The UCASE function converts a string to uppercase.",
+              "example": "SELECT UCASE('Hello World') AS Result;"
+            }
+          ]
+        },
+        {
+          "name": "Numeric Functions",
+          "description": "Numeric functions are used to perform operations on numeric values.",
+          "items": [
+            {
+              "name": "ABS",
+              "description": "The ABS function returns the absolute value of a number.",
+              "example": "SELECT ABS(-5) AS Result;"
+            },
+            {
+              "name": "ACOS",
+              "description": "The ACOS function returns the arccosine of a number.",
+              "example": "SELECT ACOS(0.5) AS Result;"
+            },
+            {
+              "name": "ASIN",
+              "description": "The ASIN function returns the arcsine of a number.",
+              "example": "SELECT ASIN(0.5) AS Result;"
+            },
+            {
+              "name": "ATAN",
+              "description": "The ATAN function returns the arctangent of a number.",
+              "example": "SELECT ATAN(0.5) AS Result;"
+            },
+            {
+              "name": "ATAN2",
+              "description": "The ATAN2 function returns the arctangent of Y / X in the range of -PI to PI.",
+              "example": "SELECT ATAN2(0.5, 0.5) AS Result;"
+            },
+            {
+              "name": "AVG",
+              "description": "The AVG function returns the average value of a numeric column.",
+              "example": "SELECT AVG(Quantity) AS Result FROM OrderDetails;"
+            },
+            {
+              "name": "CEILING",
+              "description": "The CEILING function returns the smallest integer value that is greater than or equal to the number.",
+              "example": "SELECT CEILING(5.5) AS Result;"
+            },
+            {
+              "name": "COS",
+              "description": "The COS function returns the cosine of a number.",
+              "example": "SELECT COS(0.5) AS Result;"
+            },
+            {
+              "name": "COT",
+              "description": "The COT function returns the cotangent of a number.",
+              "example": "SELECT COT(0.5) AS Result;"
+            },
+            {
+              "name": "COUNT",
+              "description": "The COUNT function returns the number of rows that matches a specified criteria.",
+              "example": "SELECT COUNT(*) AS Result FROM Customers;"
+            },
+            {
+              "name": "DEGREES",
+              "description": "The DEGREES function converts a radian value to degrees.",
+              "example": "SELECT DEGREES(0.5) AS Result;"
+            },
+            {
+              "name": "EXP",
+              "description": "The EXP function returns e raised to the power of a number.",
+              "example": "SELECT EXP(0.5) AS Result;"
+            },
+            {
+              "name": "FLOOR",
+              "description": "The FLOOR function returns the largest integer value that is less than or equal to the number.",
+              "example": "SELECT FLOOR(5.5) AS Result;"
+            },
+            {
+              "name": "GREATEST",
+              "description": "The GREATEST function returns the largest value of the selected columns.",
+              "example": "SELECT GREATEST(Quantity, UnitPrice) AS Result FROM OrderDetails;"
+            },
+            {
+              "name": "LEAST",
+              "description": "The LEAST function returns the smallest value of the selected columns.",
+              "example": "SELECT LEAST(Quantity, UnitPrice) AS Result FROM OrderDetails;"
+            },
+            {
+              "name": "LOG",
+              "description": "The LOG function returns the natural logarithm of a number.",
+              "example": "SELECT LOG(0.5) AS Result;"
+            },
+            {
+              "name": "LOG10",
+              "description": "The LOG10 function returns the base-10 logarithm of a number.",
+              "example": "SELECT LOG10(0.5) AS Result;"
+            },
+            {
+              "name": "LOG2",
+              "description": "The LOG2 function returns the base-2 logarithm of a number.",
+              "example": "SELECT LOG2(0.5) AS Result;"
+            },
+            {
+              "name": "MAX",
+              "description": "The MAX function returns the largest value of the selected column.",
+              "example": "SELECT MAX(Quantity) AS Result FROM OrderDetails;"
+            },
+            {
+              "name": "MIN",
+              "description": "The MIN function returns the smallest value of the selected column.",
+              "example": "SELECT MIN(Quantity) AS Result FROM OrderDetails;"
+            },
+            {
+              "name": "MOD",
+              "description": "The MOD function returns the remainder of a division.",
+              "example": "SELECT MOD(5, 2) AS Result;"
+            },
+            {
+              "name": "PI",
+              "description": "The PI function returns the value of PI.",
+              "example": "SELECT PI() AS Result;"
+            },
+            {
+              "name": "POWER",
+              "description": "The POWER function returns the value of a number raised to a power.",
+              "example": "SELECT POWER(5, 2) AS Result;"
+            },
+            {
+              "name": "RADIANS",
+              "description": "The RADIANS function converts a degree value to radians.",
+              "example": "SELECT RADIANS(0.5) AS Result;"
+            },
+            {
+              "name": "RAND",
+              "description": "The RAND function returns a random floating-point number between 0 and 1.",
+              "example": "SELECT RAND() AS Result;"
+            },
+            {
+              "name": "ROUND",
+              "description": "The ROUND function rounds a number to a specified number of decimal places.",
+              "example": "SELECT ROUND(5.5, 0) AS Result;"
+            },
+            {
+              "name": "SIGN",
+              "description": "The SIGN function returns the sign of a number.",
+              "example": "SELECT SIGN(5) AS Result;"
+            },
+            {
+              "name": "SIN",
+              "description": "The SIN function returns the sine of a number.",
+              "example": "SELECT SIN(0.5) AS Result;"
+            },
+            {
+              "name": "SQRT",
+              "description": "The SQRT function returns the square root of a number.",
+              "example": "SELECT SQRT(0.5) AS Result;"
+            },
+            {
+              "name": "SUM",
+              "description": "The SUM function returns the sum of a numeric column.",
+              "example": "SELECT SUM(Quantity) AS Result FROM OrderDetails;"
+            },
+            {
+              "name": "TAN",
+              "description": "The TAN function returns the tangent of a number.",
+              "example": "SELECT TAN(0.5) AS Result;"
+            },
+            {
+              "name": "TRUNCATE",
+              "description": "The TRUNCATE function truncates a number to a specified number of decimal places.",
+              "example": "SELECT TRUNCATE(5.5, 0) AS Result;"
+            },
+            {
+              "name": "ADDDATE",
+              "description": "The ADDDATE function adds a specified number of days to a date.",
+              "example": "SELECT ADDDATE('2018-01-01', 1) AS Result;"
+            },
+            {
+              "name": "ADDTIME",
+              "description": "The ADDTIME function adds a specified time interval to a time.",
+              "example": "SELECT ADDTIME('12:00:00', '01:00:00') AS Result;"
+            },
+            {
+              "name": "CURDATE",
+              "description": "The CURDATE function returns the current date.",
+              "example": "SELECT CURDATE() AS Result;"
+            },
+            {
+              "name": "CURRENT_DATE",
+              "description": "The CURRENT_DATE function returns the current date.",
+              "example": "SELECT CURRENT_DATE() AS Result;"
+            },
+            {
+              "name": "CURRENT_TIME",
+              "description": "The CURRENT_TIME function returns the current time.",
+              "example": "SELECT CURRENT_TIME() AS Result;"
+            },
+            {
+              "name": "CURRENT_TIMESTAMP",
+              "description": "The CURRENT_TIMESTAMP function returns the current date and time.",
+              "example": "SELECT CURRENT_TIMESTAMP() AS Result;"
+            },
+            {
+              "name": "CURTIME",
+              "description": "The CURTIME function returns the current time.",
+              "example": "SELECT CURTIME() AS Result;"
+            },
+            {
+              "name": "DATE",
+              "description": "The DATE function returns the date part of a date or datetime expression.",
+              "example": "SELECT DATE('2018-01-01 12:00:00') AS Result;"
+            },
+            {
+              "name": "DATEDIFF",
+              "description": "The DATEDIFF function returns the number of days between two dates.",
+              "example": "SELECT DATEDIFF('2018-01-01', '2018-01-02') AS Result;"
+            },
+            {
+              "name": "DATE_ADD",
+              "description": "The DATE_ADD function adds a specified number of days to a date.",
+              "example": "SELECT DATE_ADD('2018-01-01', INTERVAL 1 DAY) AS Result;"
+            },
+            {
+              "name": "DATE_FORMAT",
+              "description": "The DATE_FORMAT function formats a date or datetime expression using the specified format.",
+              "example": "SELECT DATE_FORMAT('2018-01-01 12:00:00', '%Y-%m-%d') AS Result;"
+            },
+            {
+              "name": "DATE_SUB",
+              "description": "The DATE_SUB function subtracts a specified number of days from a date.",
+              "example": "SELECT DATE_SUB('2018-01-01', INTERVAL 1 DAY) AS Result;"
+            },
+            {
+              "name": "DAY",
+              "description": "The DAY function returns the day of the month for a date.",
+              "example": "SELECT DAY('2018-01-01') AS Result;"
+            },
+            {
+              "name": "DAYNAME",
+              "description": "The DAYNAME function returns the name of the day of the week for a date.",
+              "example": "SELECT DAYNAME('2018-01-01') AS Result;"
+            },
+            {
+              "name": "DAYOFMONTH",
+              "description": "The DAYOFMONTH function returns the day of the month for a date.",
+              "example": "SELECT DAYOFMONTH('2018-01-01') AS Result;"
+            },
+            {
+              "name": "DAYOFWEEK",
+              "description": "The DAYOFWEEK function returns the day of the week for a date.",
+              "example": "SELECT DAYOFWEEK('2018-01-01') AS Result;"
+            },
+            {
+              "name": "DAYOFYEAR",
+              "description": "The DAYOFYEAR function returns the day of the year for a date.",
+              "example": "SELECT DAYOFYEAR('2018-01-01') AS Result;"
+            },
+            {
+              "name": "EXTRACT",
+              "description": "The EXTRACT function returns a part of a date or datetime expression.",
+              "example": "SELECT EXTRACT(YEAR FROM '2018-01-01') AS Result;"
+            },
+            {
+              "name": "FROM_DAYS",
+              "description": "The FROM_DAYS function converts a day number to a date.",
+              "example": "SELECT FROM_DAYS(737424) AS Result;"
+            },
+            {
+              "name": "HOUR",
+              "description": "The HOUR function returns the hour for a time.",
+              "example": "SELECT HOUR('12:00:00') AS Result;"
+            },
+            {
+              "name": "LAST_DAY",
+              "description": "The LAST_DAY function returns the last day of the month for a date.",
+              "example": "SELECT LAST_DAY('2018-01-01') AS Result;"
+            },
+            {
+              "name": "LOCALTIME",
+              "description": "The LOCALTIME function returns the current time.",
+              "example": "SELECT LOCALTIME() AS Result;"
+            },
+            {
+              "name": "MAKEDATE",
+              "description": "The MAKEDATE function creates a date from a year and day of year.",
+              "example": "SELECT MAKEDATE(2018, 1) AS Result;"
+            },
+            {
+              "name": "MICROSECOND",
+              "description": "The MICROSECOND function returns the microsecond for a time.",
+              "example": "SELECT MICROSECOND('12:00:00.123456') AS Result;"
+            },
+            {
+              "name": "MINUTE",
+              "description": "The MINUTE function returns the minute for a time.",
+              "example": "SELECT MINUTE('12:00:00') AS Result;"
+            },
+            {
+              "name": "MONTH",
+              "description": "The MONTH function returns the month for a date.",
+              "example": "SELECT MONTH('2018-01-01') AS Result;"
+            },
+            {
+              "name": "MONTHNAME",
+              "description": "The MONTHNAME function returns the name of the month for a date.",
+              "example": "SELECT MONTHNAME('2018-01-01') AS Result;"
+            },
+            {
+              "name": "NOW",
+              "description": "The NOW function returns the current date and time.",
+              "example": "SELECT NOW() AS Result;"
+            },
+            {
+              "name": "PERIOD_ADD",
+              "description": "The PERIOD_ADD function adds a specified number of periods to a period.",
+              "example": "SELECT PERIOD_ADD(201801, 1) AS Result;"
+            },
+            {
+              "name": "PERIOD_DIFF",
+              "description": "The PERIOD_DIFF function returns the number of periods between two periods.",
+              "example": "SELECT PERIOD_DIFF(201801, 201802) AS Result;"
+            },
+            {
+              "name": "QUARTER",
+              "description": "The QUARTER function returns the quarter for a date.",
+              "example": "SELECT QUARTER('2018-01-01') AS Result;"
+            },
+            {
+              "name": "SECOND",
+              "description": "The SECOND function returns the second for a time.",
+              "example": "SELECT SECOND('12:00:00') AS Result;"
+            },
+            {
+              "name": "SEC_TO_TIME",
+              "description": "The SEC_TO_TIME function converts a time in seconds to a time.",
+              "example": "SELECT SEC_TO_TIME(43200) AS Result;"
+            },
+            {
+              "name": "STR_TO_DATE",
+              "description": "The STR_TO_DATE function converts a string to a date.",
+              "example": "SELECT STR_TO_DATE('2018-01-01', '%Y-%m-%d') AS Result;"
+            },
+            {
+              "name": "SUBDATE",
+              "description": "The SUBDATE function subtracts a specified number of days from a date.",
+              "example": "SELECT SUBDATE('2018-01-01', 1) AS Result;"
+            },
+            {
+              "name": "SUBTIME",
+              "description": "The SUBTIME function subtracts a time from another time.",
+              "example": "SELECT SUBTIME('12:00:00', '01:00:00') AS Result;"
+            },
+            {
+              "name": "SYSDATE",
+              "description": "The SYSDATE function returns the current date.",
+              "example": "SELECT SYSDATE() AS Result;"
+            },
+            {
+              "name": "TIME",
+              "description": "The TIME function returns the time part of a time or datetime expression.",
+              "example": "SELECT TIME('12:00:00') AS Result;"
+            },
+            {
+              "name": "TIME_FORMAT",
+              "description": "The TIME_FORMAT function formats a time or datetime expression using the specified format.",
+              "example": "SELECT TIME_FORMAT('12:00:00', '%H:%i:%s') AS Result;"
+            },
+            {
+              "name": "TIME_TO_SEC",
+              "description": "The TIME_TO_SEC function converts a time to seconds.",
+              "example": "SELECT TIME_TO_SEC('12:00:00') AS Result;"
+            },
+            {
+              "name": "TIMEDIFF",
+              "description": "The TIMEDIFF function returns the time difference between two times.",
+              "example": "SELECT TIMEDIFF('12:00:00', '01:00:00') AS Result;"
+            },
+            {
+              "name": "TIMESTAMP",
+              "description": "The TIMESTAMP function returns the date and time part of a datetime expression.",
+              "example": "SELECT TIMESTAMP('2018-01-01 12:00:00') AS Result;"
+            },
+            {
+              "name": "TO_DAYS",
+              "description": "The TO_DAYS function converts a date to a day number.",
+              "example": "SELECT TO_DAYS('2018-01-01') AS Result;"
+            },
+            {
+              "name": "TO_SECONDS",
+              "description": "The TO_SECONDS function converts a datetime to a Unix timestamp.",
+              "example": "SELECT TO_SECONDS('2018-01-01 12:00:00') AS Result;"
+            },
+            {
+              "name": "WEEK",
+              "description": "The WEEK function returns the week number for a date.",
+              "example": "SELECT WEEK('2018-01-01') AS Result;"
+            },
+            {
+              "name": "WEEKDAY",
+              "description": "The WEEKDAY function returns the weekday index for a date.",
+              "example": "SELECT WEEKDAY('2018-01-01') AS Result;"
+            },
+            {
+              "name": "WEEKOFYEAR",
+              "description": "The WEEKOFYEAR function returns the week number for a date.",
+              "example": "SELECT WEEKOFYEAR('2018-01-01') AS Result;"
+            },
+            {
+              "name": "YEAR",
+              "description": "The YEAR function returns the year for a date.",
+              "example": "SELECT YEAR('2018-01-01') AS Result;"
+            },
+            {
+              "name": "YEARWEEK",
+              "description": "The YEARWEEK function returns the year and week number for a date.",
+              "example": "SELECT YEARWEEK('2018-01-01') AS Result;"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
